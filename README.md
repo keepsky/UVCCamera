@@ -1,3 +1,15 @@
+For Wellkit project
+=========
+
+gradle version in gradle-wrapper.properties
+  : distributionUrl=https\://services.gradle.org/distributions/gradle-7.3.3-bin.zip
+
+ndk version in local.properties
+  : ndk.dir=C\:\\Users\\PC\\AppData\\Local\\Android\\Sdk\\ndk\\16.1.4479499
+
+
+
+
 UVCCamera
 =========
 
