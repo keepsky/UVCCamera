@@ -6,17 +6,17 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.1.4'
+        classpath 'com.android.tools.build:gradle:7.2.0'
     }
 }
 
 allprojects {
-    repositories {
+	repositories {
 //    	google()
 		maven { url 'https://maven.google.com' }
 		jcenter()
-		maven { url 'http://raw.github.com/saki4510t/libcommon/master/repository/' }
-    }
+		maven { url 'https://gitee.com/liuchaoya/libcommon/raw/master/repository/' }
+	}
 }
 
 task clean(type: Delete) {
